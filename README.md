@@ -7,7 +7,7 @@ $ pkg update && pkg upgrade -y
 $ pkg install git python -y
 
 # Clone the IP tracker
-$ git clone https://github.com/YOUR-USERNAME/termux-ip-tracker.git
+$ git clone https://github.com/itsjust-Rex/termux-ip-tracker.git
 
 $ cd termux-ip-tracker
 
