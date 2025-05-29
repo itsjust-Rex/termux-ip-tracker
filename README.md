@@ -1,20 +1,13 @@
-# termux-ip-tracker
-# STEP 1: Install Termux and open it
+# Termux IP Tracker
 
-# Install required packages
-$ pkg update && pkg upgrade -y
+A simple IP address tracker script that works in Termux.
 
-$ pkg install git python -y
+## 📲 Installation
 
-# Clone the IP tracker
-$ git clone https://github.com/itsjust-Rex/termux-ip-tracker.git
-
-$ cd termux-ip-tracker
-
-# Install Python dependencies
-
-$ pip install requests
-
-# Run the script with 👇👇
-
-$ python iptracker.py
+```bash
+pkg update && pkg upgrade -y
+pkg install git python -y
+git clone https://github.com/YOUR-USERNAME/termux-ip-tracker.git
+cd termux-ip-tracker
+pip install requests
+python iptracker.py
