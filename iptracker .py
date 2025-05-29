@@ -25,9 +25,9 @@ def get_ip_info(ip):
         for key, value in data.items():
             print(f"{key.capitalize()}: {value}")
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"\n❌ Error: {e}")
 
 if __name__ == "__main__":
     banner()
-    target_ip = input("Enter IP address to track: ")
+    target_ip = input("🔎 Enter IP address to track: ")
     get_ip_info(target_ip)
